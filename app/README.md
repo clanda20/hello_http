@@ -24,7 +24,7 @@ The port argument is optional and when not included the service will default to 
 
 1.  Get to the directory inside docker container by typing:
     $ docker exec -it <container name> /bin/sh
-    for example:  $ docker exec -it quirky_hodgkin /bin/sh
+    For example:  $ docker exec -it quirky_hodgkin /bin/sh
 2.  Check the directory:  ls -l
 3.  Run:  $ ./dummyserv 12344
 4.  open: http://localhost:12344
