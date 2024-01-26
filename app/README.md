@@ -7,7 +7,7 @@ Hello world with a webserver in C
 
 Steps to build the Dev Container:
 1.  Use this link
-    $ git clone https://github.com/drines-uc/hello_httpLinks  
+    $ git clone https://github.com/clanda20/hello_http/blob/main/app/README.md 
     to clone dummy_serv.c
 2.  Run the image:  docker build -t homework1 .  ( don't forget the . )
 3.  Run the docker container:
