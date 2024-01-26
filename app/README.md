@@ -14,7 +14,7 @@ Steps to build the Dev Container:
     $ docker run -dp 12344:12344 homework1
 4.  Copy the ID or the name of the container by typing  
     $docker  container ls -all
-
+    For example: suspicious_turing, or quirky_hodgkin
 
 
 
@@ -23,7 +23,8 @@ Steps to build the Dev Container:
 The port argument is optional and when not included the service will default to port 8080
 
 1.  Get to the directory inside docker container by typing:
-    $ docker exec -it funny_knuth /bin/sh
+    $ docker exec -it <container name> /bin/sh
+    for example:  $ docker exec -it quirky_hodgkin /bin/sh
 2.  Check the directory:  ls -l
 3.  Run:  $ ./dummyserv 12344
 4.  open: http://localhost:12344
