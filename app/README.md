@@ -23,7 +23,7 @@ Steps to build the Dev Container:
 The port argument is optional and when not included the service will default to port 8080
 
 1.  Get to the directory inside docker container by typing:
-    $ docker exec -it <container name> /bin/sh
+    $ docker exec -it container-name /bin/sh
     For example:  $ docker exec -it quirky_hodgkin /bin/sh
 2.  Check the directory:  ls -l
 3.  Run:  $ ./dummyserv 12344
